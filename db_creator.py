@@ -72,9 +72,8 @@ df = df[(df['sale_price']) > 100]
 df.columns
 df.sale_date = df.sale_date.apply(lambda x: date_format(x))
 df.to_sql(name='address', con=engine, if_exists = 'replace', index=True)
-
-
-
+df.to_csv('db_data.csv', index = False)
+df = pd.read_csv('db_data.csv')
 
 def date_format(x):
     if(str(x) != 'nan'):
