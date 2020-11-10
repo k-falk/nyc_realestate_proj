@@ -94,15 +94,8 @@ We did some exploratory analysis on our data using Tableau and Python. Tableau a
 
 Here are some highlights:
 
-![Salary By Position Boxplot](https://github.com/k-falk/ds_salary_proj/blob/master/salary_title_boxplot.PNG)
+(WIP Needs to be added)
 
-![Corr Map](https://github.com/k-falk/ds_salary_proj/blob/master/corr_map.PNG)
-
-![Statemap](https://github.com/k-falk/ds_salary_proj/blob/master/statemap.PNG)
-
-![Salary by Title Pivot](https://github.com/k-falk/ds_salary_proj/blob/master/title_salary_pivot.PNG)
-
-![Title Barchart](https://github.com/k-falk/ds_salary_proj/blob/master/title_barchart.PNG)
 <!-- Model building -->
 ## Model building
 
@@ -115,7 +108,7 @@ For our model building, we used sklearn and its cross_val_score function to eval
 * Decision Tree
 * Gradient Boosting
 
-The best model here was Gradient Boosting with an MAE of .249. We then used RandomizedGridSearch to find the best model. This gave us a final MAE of .245. 
+The best model herewas Gradient Boosting with an MAE of .249. We then used RandomizedGridSearch to find the best model. This gave us a final MAE of .245. 
 
 We also tested our data on a deep learning model. We used Tensorflow keras to build our model. This gave us better results and we got an MAE of 0.232. Transforming the MAE into real numbers gives us an MAE of 140k. The deeplearning model's results can be visualized here:
 <!-- New Data-->
