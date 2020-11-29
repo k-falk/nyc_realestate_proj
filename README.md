@@ -22,14 +22,14 @@
   <p align="center">
     Predicting Property Prices using Sklearn and Tensorflow
     <br />
-    <a href="https://github.com/k-falk/ds_salary_proj"
+    <a href="https://github.com/k-falk/nyc_real_estate_proj"
     ><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/k-falk/ds_salary_proj/issues">Report Bug</a>
+    <a href="https://github.com/k-falk/nyc_realestate_proj/issues">Report Bug</a>
     ·
-    <a href="https://github.com/k-falk/ds_salary_proj/issues">Request Feature</a>
+    <a href="https://github.com/k-falk/nyc_realestate_proj/issues">Request Feature</a>
   </p>
 </p>
 
