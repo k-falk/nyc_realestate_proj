@@ -22,7 +22,7 @@
   <p align="center">
     Predicting Property Prices using Sklearn and Tensorflow
     <br />
-    <a href="https://github.com/k-falk/nyc_real_estate_proj"
+    <a href="https://github.com/k-falk/nyc_realestate_proj"
     ><strong>Explore the docs »</strong></a>
     <br />
     <br />
