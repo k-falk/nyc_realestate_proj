@@ -25,9 +25,13 @@ df_brooklyn = pd.read_csv(path + 'rollingsales_brooklyn.csv',header = 4)
 df_queens = pd.read_csv(path + 'rollingsales_queens.csv',header = 4)
 df_statenisland = pd.read_csv(path + 'rollingsales_statenisland.csv',header = 4)
 
-df = pd.concat([df_manhattan, df_bronx, df_brooklyn, df_queens, df_statenisland])
+#df = pd.concat([df_manhattan, df_bronx, df_brooklyn, df_queens, df_statenisland])
+df = pd.read_csv(path + 'addresses.csv')
+df.columns
+df.head()  
+df.to_sql(name='address', con=engine, if_exists = 'replace', index=True)
+df.to_csv('db_data.csv', index = False)
 
-df.head()       
 #query = 'INSERT INTO address VALUES(' + i +', {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {})'
 #for row in df:
 #    print(row +'')
