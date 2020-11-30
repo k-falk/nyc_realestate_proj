@@ -1,0 +1,37 @@
+absl-py @ file:///C:/ci/absl-py_1603893176799/work
+astor==0.8.1
+certifi==2020.11.8
+click==7.1.2
+Flask==1.1.2
+gast @ file:///tmp/build/80754af9/gast_1597433534803/work
+grpcio @ file:///C:/ci/grpcio_1597406403308/work
+gunicorn==20.0.4
+h5py==2.10.0
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
+itsdangerous==1.1.0
+Jinja2==2.11.2
+joblib @ file:///tmp/build/80754af9/joblib_1601912903842/work
+Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
+Keras-Preprocessing==1.1.0
+Markdown @ file:///C:/ci/markdown_1605111187600/work
+MarkupSafe @ file:///C:/ci/markupsafe_1594405949945/work
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603468620949/work
+protobuf==3.13.0
+pyreadline==2.1
+scikit-learn @ file:///C:/ci/scikit-learn_1598376983131/work
+scipy @ file:///C:/ci/scipy_1597686737426/work
+six @ file:///C:/ci/six_1605205426665/work
+tensorboard==1.14.0
+tensorflow==1.14.0
+tensorflow-estimator==1.14.0
+termcolor==1.1.0
+threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
+touch==0.0.0
+values==0.0.0
+Werkzeug==1.0.1
+wincertstore==0.2
+wrapt==1.12.1
+zipp @ file:///tmp/build/80754af9/zipp_1604001098328/work
