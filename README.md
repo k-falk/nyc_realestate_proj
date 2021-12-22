@@ -92,10 +92,6 @@ We were able to glean a couple of more features from our data. Notably, we used 
 
 We did some exploratory analysis on our data using Tableau and Python. Tableau allowed us to create an easy to read dashboard that we could present to stakeholders while Python allowed us to look at key variables that would affect our model. 
 
-Here are some highlights:
-
-(WIP Needs to be added)
-
 <!-- Model building -->
 ## Model building
 
@@ -111,13 +107,6 @@ For our model building, we used sklearn and its cross_val_score function to eval
 The best model herewas Gradient Boosting with an MAE of .249. We then used RandomizedGridSearch to find the best model. This gave us a final MAE of .245. 
 
 We also tested our data on a deep learning model. We used Tensorflow keras to build our model. This gave us better results and we got an MAE of 0.232. Transforming the MAE into real numbers gives us an MAE of 140k. The deeplearning model's results can be visualized here:
-<!-- New Data-->
-## Testing on new data
-Our model's results were uninspiring to say the least. Although our residuals showed our errors were normally distributed and our MAE had a small standard deviation, we still hoped for better results. We hypothesized that this was because of our data input. So we went ahead and tested our model building on new data. 
-
-There is a dataset on Kaggle that has the same NYC Property data but from previous years. We found that using the same techniques we used for the current year, we had much better results. Our findings can be summarized here
-
-WIP
 
 
 <!-- LICENSE -->
