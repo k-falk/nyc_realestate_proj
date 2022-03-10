@@ -55,13 +55,12 @@
 This is a data science project designed to aid in the prediction of the sale prices of properties in NYC from the dates 10/15/19 - 10/14/20. We created a MySQL database using SQLAlchemy and created various visualizations in Tableau to help visualize various factors in our data. Then we used Python to further explore our data and build a model using Tensorflow and Sklearn. 
 
 ### Built With
-This project uses SQL to store our data. Tableau to visualize the data and create a dashboard to present to stakeholders. And Python to build a model to predict the data. We then use Flask to productionize our model and enable predictions using user inputted data. 
+This project uses SQL to store our data. Tableau to visualize the data and create a dashboard to present to stakeholders. And Python to build a model to predict the data. 
 * [SQL Alchemy](https://www.sqlalchemy.org/)
 * [Tableau](https://www.tableau.com/)
 * [Pandas](https://pandas.pydata.org/)
 * [Sklearn](https://scikit-learn.org/stable/)
 * [Tensorflow](https://scikit-learn.org/stable/)
-* [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 
 
 
